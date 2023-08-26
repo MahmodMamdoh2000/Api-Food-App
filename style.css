@@ -1,0 +1,64 @@
+.imgs{
+    height: 200px;
+    margin-bottom: 20px;
+}
+.card-body {
+    height: 180px;
+}
+.card-body h5 {
+    height: 50px;
+}
+.card-body p{
+    margin-bottom: 20px;
+}
+
+
+.searche{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searche button{
+    margin-left: 20px;
+   margin-bottom: 50px;
+   text-align: center;
+}
+
+.notfound{
+    background-color: rgb(165, 68, 68);
+    color: #fff;
+}
+
+.home{
+    background:url('https://i.pinimg.com/564x/0f/64/8a/0f648a264b8179e13a7c6ff540da4e4f.jpg');
+    min-height: 100vh;
+    background-size:cover;
+background-position: center;
+    background-repeat: no-repeat;
+}
+.overlay{
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.753);
+}
+
+.home .titel{
+    color: #fff;
+    text-align: center;
+
+}
+
+.nav-item{
+    cursor: pointer;
+    margin-left: 40PX;
+}
+
+
+@media(max-width: 400px) {
+    .home{
+        min-height:50vh;
+    }
+    .overlay{
+        min-height: 50vh;
+    }
+}
+
